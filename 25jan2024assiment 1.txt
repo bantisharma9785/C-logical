@@ -1,0 +1,115 @@
+1.
+#include<stdio.h
+int main()  {
+    printf("hello, wellcome to jaipur");
+    return 0;>
+} 
+---------------------------------------------------------------------------------------------
+2.
+#include<stdio.h>
+int main()  {
+    printf("hii,how are you");
+    return 0;
+}
+
+
+--------------------------------------------------------------------------------------------------------
+3.
+#include<stdio.h>
+int main()  {
+    printf("hello world\n");
+    printf("how are you");
+    return 0;
+}
+
+
+----------------------------------------------------------------------------------------------------
+4.
+#include<stdio.h>
+int main()  {
+    printf("rahul\n");
+    printf("sumesh\n");
+    printf("sanjay\n");
+    printf("tejveer\n");
+    printf("ram\n");
+    return 0;
+}
+
+
+--------------------------------------------------------------------------------------------------------
+5.
+#include<stdio.h>
+int main()  {
+    printf("india\n");
+    printf("iran\n");
+    printf("japan\n");
+    printf("america\n");
+    printf("sri lanka\n");
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------
+6.
+#include<stdio.h>
+int main()  {
+    printf("mumbai\n");
+    printf("hyderabad\n");
+    printf("delhi\n");
+    printf("bangalore\n");
+    printf("gujarat\n");
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------
+7.
+#include<stdio.h>
+int main()  {
+    printf("mango\n");
+    printf("apple\n");
+    printf("papaya\n");
+    printf("lemon\n");
+    printf("grape\n");
+    return 0;
+}
+
+
+--------------------------------------------------------------------------------------------------------------
+8.
+#include<stdio.h>
+int main()  {
+    printf("potato\n");
+    printf("cabbage\n");
+    printf("carrot\n");
+    printf("bringal\n");
+    printf("tomato\n");
+    return 0;
+}
+
+
+-------------------------------------------------------------------------------------------------------------
+9.
+#include<stdio.h>
+int main()  {
+    printf("salad\n");
+    printf("rice\n");
+    printf("bread\n");
+    printf("butter\n");
+    printf("pizza\n");
+    return 0;
+}
+
+
+-----------------------------------------------------------------------------------------------------------------
+10.
+#include<stdio.h>
+int main()  {
+    printf("punjab\n");
+    printf("tamil nadu\n");
+    printf("haryana\n");
+    printf("rajasthan\n");
+    printf("gujarat\n");
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
