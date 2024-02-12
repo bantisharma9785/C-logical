@@ -1,0 +1,116 @@
+basic logic building :
+-------------------------------------------------------------
+C : 
+->is a programming language.
+->C is a mother language.
+->C is a mid level language. 
+
+mid level  :low level +high level ka combination 
+----------------------------------------------------------
+what is software ? 
+->set of programs 
+
+
+what is program ?
+->set of instructions and commands 
+----------------------------------------------------
+C is a structural language
+C is a procedural programming language. 
+--------------------------------------------------------
+extension :file save format 
+filename.c
+
+notepad :notes 
+notes.txt
+
+image :save
+kajal 
+
+kajal.png 
+
+
+C :first code :first
+first.c
+-------------------------------------------------------
+debug :to find the error
+
+
+basic code c : 
+#include<stdio.h>
+int main(){
+    printf("hello world");
+    return 0;
+}
+----------------------------------------------------------
+print :
+welcome to india 
+#include<stdio.h>
+int main(){
+    printf("welcome to india");
+    return 0;
+}
+----------------------------------------------------------
+#include<stdio.h> 
+
+# :hash :preproccesor 
+
+include :keyword
+
+keyword :it is a reserved word and it is a fixed word and have a particular meaning. 
+
+< > : angular bracket 
+() :parenthesis 
+{ } :curly bracket |braces 
+[] :square bracket 
+
+stdio :
+full form :standard input output 
+
+.h : extension of header file 
+
+#include<stdio.h> :header file |library file | root file 
+->it store printf and scanf functions. 
+
+int main() : 
+int :datatype 
+
+main() :predefine function 
+->it is a entry point to execute (run) the code
+
+{ } :curly bracket 
+
+printf("hello world "); :predefine function 
+->it is used to print the value  
+
+" " :double quotes 
+' ' :single quotes 
+; :semicolon :it is used to terminate code. 
+: :colon 
+
+
+return 0; :future 
+---------------------------------------------------------------
+#include<stdio.h>
+int main(){
+    printf("hello world ");
+    printf("how are you ?");
+    return 0;
+}
+-------------------------------------
+\n :for new line 
+
+#include<stdio.h>
+int main(){
+    printf("hello world\n");
+    printf("how are you ?");
+    return 0;
+}
+-------------------------
+#include<stdio.h>
+int main(){
+    printf("dfbd\n");
+    printf("fvdfv\n");
+    printf("vdb\n");
+    return 0;
+}
+------------------------------------------

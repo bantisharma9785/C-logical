@@ -1,0 +1,768 @@
+sum of digit :code 
+
+dry run
+---------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    int count;
+    while(num>0)
+    {
+        count++;
+        num=num/10;
+    }
+    printf("%d",count);
+    return 0;
+}
+
+-------------------------------------------------------------------------
+count digit :
+6746357
+
+dry run
+--------------------------
+#include<stdio.h>
+int main()
+{
+    int num=6746357;
+    int count;
+    while(num>0)
+    {
+        count++;
+        num=num/10;
+    }
+    printf("%d",count);
+    return 0;
+}
+
+------------------------------------------------------------------------------
+1-->10 number sum loop through
+
+dry run
+----------------------------------
+#include<stdio.h>
+ int main()
+ {
+     int num=1;
+     int sum;
+     while(num<=10)
+     {
+         sum=rem+sum;
+         num++;
+     }
+     printf("%d",sum);
+     return 0;
+ }
+----------------------------------------------------------------------------------
+ 34--->78 :number sum
+-----------------------
+ #include<stdio.h>
+int main()
+{
+    int num=34;
+    int sum=0;
+    while(num<=78)
+    {
+        sum=num+sum;
+        num++;
+    }
+    printf("%d",sum);
+    return 0;
+}
+--------------------------------------------------------------------------------------
+99--->92 :value sum
+-------------------------
+#include<stdio.h>
+int main()
+{
+    int num=99;
+    int sum;
+    while(num>=92)
+    {
+        sum=num+sum;
+        num--;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+-------------------------------------------------------------------------------------------
+1---->100 even number
+-----------------------
+#include<stdio.h>
+int main()
+{
+    int num=1;
+    while(num<=100)
+    {
+        if(num%2==0){
+        printf("%d \t",num);
+        }
+        num++;
+    }
+}
+
+-----------------------------------------------------------------------------
+50---->1 even number
+---------------------
+
+#include<stdio.h>
+int main()
+{
+    int num=50;
+    while(num>1)
+    {
+        if(num%2==0){
+        printf("%d \t",num);
+        }
+        num--;
+    }
+}
+
+-------------------------------------------------------------------------------
+23--->78 even number
+-----------------------
+#include<stdio.h>
+int
+main ()
+{
+  int num = 23;
+  while (num < 78)
+	{
+	  if (num % 2 == 0)
+		{
+		  printf ("%d \t", num);
+		}
+		num++;
+	}
+}
+
+----------------------------------------------------------------------------------
+1---->100 odd number
+-----------------------
+#include<stdio.h>
+int main()
+{
+    int num=1;
+    while(num<100)
+    {
+        if(num%2!=0){
+
+
+        printf("%d \t",num);
+    }
+        num++;
+    }
+}
+-------------------------------------------------------------------------------------
+50---->1 odd number
+----------------------
+
+#include<stdio.h>
+int main()
+{
+    int num=50;
+    while(num>1)
+    {
+        if(num%2!=0){
+        printf("%d \t",num);
+        }
+        num--;
+        
+    }
+}
+
+---------------------------------------------------------------------------------------
+23--->78 odd number
+----------------------
+#include<stdio.h>
+int main()
+{
+    int num=23;
+    while(num<78)
+    {
+        if(num%2!=0){
+        printf("%d \t",num);
+        }
+        num++;
+    }
+}
+
+-----------------------------------------------------------------------------------------
+1--->10 number through for loop
+---------------------------------
+
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    for(;a<=10;a++)
+    {
+        printf("%d",a);
+    }
+}
+
+----------------------------------------------------------------------------------------- 
+1--->100 number through for loop
+-----------------------------------
+#include<stdio.h>
+int main()
+{
+    for(  int a=1; a<=100 ;a++)
+    {
+        printf(" %d \t",a);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+50--->100 number through for loop
+---------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=50;a<=100;a++)
+    {
+        printf("%d \t",a);
+    }
+}
+------------------------------------------------
+23---->78 number through for loop
+-----------------------------------
+
+#include<stdio.h>
+int main()
+{
+    for(int a=23;a<=78;a++)
+    {
+        printf("%d \t",a);
+    }
+}
+
+---------------------------------------------------------------------------------------------
+100---->1 number through for loop
+------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=100;a>=1;a--)
+    {
+        printf("%d \t",a);
+    }
+}
+
+------------------------------------------------------------------------------------------
+100---->50 number through for loop
+-----------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=100;a>=50;a--)
+    {
+        printf("%d \t",a);
+    }
+}
+
+----------------------------------------------------------------------------------------------
+99---->80 number through for loop
+-------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=99;a>=80;a--)
+    {
+        printf("%d \t",a);
+    }
+}
+
+------------------------------------------------------------------------------------------------------
+1--->10 even number through for loop
+dry run
+-----------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=1;a<=10;a++)
+    {
+        printf("%d \t",a);
+    }
+}
+------------------------------------------------------------------------------
+1--->100 even number through for loop
+--------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=1;a<=100;a++)
+    {
+        if(a%2==0){
+        printf("%d \t",a);
+        }
+    }
+}
+
+---------------------------------------------------------------------------------------
+50--->100 even number through for loop
+---------------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=50;a<=100;a++)
+    {
+        if(a%2==0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+---------------------------------------------------------------
+23---->78 even number through for loop
+-----------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=23;a<=73;a++)
+    {
+        if(a%2==0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+-------------------------------------------------------------
+
+1--->10 odd number through for loop
+dry run
+-----------------------------------------
+	
+#include<stdio.h>
+int main()
+{
+    for(int a=1;a<=10;a++)
+    {
+        if(a%2!=0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+-------------------------------------------------------------
+1--->100 odd number through for loop
+-----------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=1;a<=100;a++)
+    {
+        if(a%2!=0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+--------------------------------------------------------------------------------
+50--->100 odd number through for loop
+---------------------------------------
+
+#include<stdio.h>
+int main()
+{
+    for(int a=50;a<=100;a++)
+    {
+        if(a%2!=0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+--------------------------------------------------------------------------------
+23---->78 odd number through for loop
+-------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=23;a<=78;a++)
+    {
+        if(a%2!=0)
+        {
+            printf("%d \t",a);
+        }
+    }
+
+-------------------------------------------------------------------------------
+100---->1 even number through for loop
+----------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=100;a>=1;a--)
+    {
+        if(a%2==0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+----------------------------------------------------------------------------------------
+100---->50 even number through for loop
+-----------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=100;a>=50;a--)
+    {
+        if(a%2==0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+---------------------------------------------------------------------------------
+99---->80 even number through for loop
+-----------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=99;a>=80;a--)
+    {
+        if(a%2==0)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+-------------------------------------------------------------
+100---->1 odd number through for loop
+---------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=100;a>=1;a--)
+    {
+        if(a%2==1)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+-----------------------------------------------------------------------------------
+100---->50 odd number through for loop
+--------------------------------------------
+#include<stdio.h>
+int main()
+{
+    for(int a=100;a>=50;a--)
+    {
+        if(a%2==1)
+        {
+            printf("%d \t",a);
+        }
+    }
+
+}
+
+
+----------------------------------------------------------------------------
+99---->80 odd number through for loop
+-----------------------------------------------
+
+ #include<stdio.h>
+int main()
+{
+    for(int a=99;a>=80;a--)
+    {
+        if(a%2==1)
+        {
+            printf("%d \t",a);
+        }
+    }
+}
+
+----------------------------------------------------------------------------------------
+a :armstrong number
+
+p :pallindrome
+
+
+r :reverse number
+
+c :count digit
+
+s :sum of digit
+
+o :sum of loop numbers
+
+w :(while loop)
+	e :1-->100 (even number 1 to 100)
+	d :100--->1 (odd numbers print)
+
+f :(for loop)
+	e :1-->100 (even number 1 to 100)
+	d :100--->1 (odd numbers print)
+
+l :factorial
+
+u :sum of loop number (for loop )
+
+t :table print (2 table)
+	w :through while loop
+ 	f :through for loop
+
+y :calculator :
+	a :add
+	s:sub
+	m :mul
+	d :divide
+
+------------------------------------------------------
+#include<stdio.h>
+int	main()
+{
+    char alpha , choice , operation; 
+    int num , sum = 0 , temp , compare , count , range , factorial = 1 , num1 , num2 , result;  
+    printf("Enter the charachter to perform the following operations \n");
+    printf("\t a : Armstrong number\n");
+    printf("\t p : Palindrome\n");
+    printf("\t r : Reverse number\n");
+    printf("\t c : Count digit\n");
+    printf("\t s : Sum of digit\n");
+    printf("\t o : Sum of loop numbers\n");
+    printf("\t f : (for loop)\n");
+    printf("\t l : Factorial\n");
+    printf("\t t : Table print\n");
+    printf("\t y : Calculator\n :-");
+    scanf("%c",&alpha);
+
+    if (alpha == 'a')
+    {
+    printf("Enter the 3 digit number :-");
+    scanf("%d",&num);
+    compare = num;
+    
+    while(num>0)
+    {
+     temp = num % 10 ;
+     sum = sum + (temp*temp*temp);
+     num = num/10;
+    }
+    if(sum == compare)
+    {
+        printf("%d is a armstrong no ",sum);  
+    }
+    else
+    {
+        printf("%d is not a armstrong no ",sum);  
+    }
+    }
+    else if (alpha == 'p')
+    {
+    printf("Enter the number :-");
+    scanf("%d",&num);
+    compare = num ;
+    
+    while(num>0)
+    {
+     temp = num % 10 ;
+     sum = sum * 10 + temp;
+     num = num/10;
+    }
+    if(sum == compare)
+    {
+        printf("%d is a palindrome no ",sum);  
+    }
+    else
+    {
+        printf("%d is not a palindrome no ",sum);  
+    } 
+    }
+    else if (alpha == 'r')
+    {
+
+    printf("Enter the number :-");
+    scanf("%d",&num);
+    
+    while(num>0)
+    {
+     temp = num % 10 ;
+     sum = sum * 10 + temp;
+     num = num/10;
+    }
+    printf("%d",sum);
+
+    }
+    else if (alpha == 'c')
+    {
+    printf("Enter the number :-");
+    scanf("%d",&num);
+    
+    while(num>0)
+    {
+        num = num / 10;
+        count++;
+    }
+    
+    printf("digits of the no is :- %d",count);  
+    }
+    else if (alpha == 's')
+    {
+    printf("Enter the number :-");
+    scanf("%d",&num);
+
+        while(num>0)
+        {
+         temp = num % 10 ;
+         sum = sum + temp;
+         num = num/10;
+        }
+   
+        printf("%d is the sum numbers ",sum);  
+    }
+    else if (alpha == 'o')
+    {
+        printf("Enter the number :-");
+        scanf("%d",&num);
+        compare = num ;
+        for(int i = 1 ; i <= 10 ; i++)
+        {
+             sum = sum + i;
+        }
+    
+    printf("Sum of 1 ----> %d is %d",compare,sum);
+
+    }
+    else if (alpha == 'f')
+    {
+        printf("Enter the choice for the following \n \t e for even : \n \t d for odd :");
+        scanf("%c",&choice);
+        if (choice == 'e')
+        {
+            printf("Enter the range to find even no b/w :- \n");
+            printf("Enter the first num :");
+            scanf("%d",&num);
+            printf("Enter the last num :");
+            scanf("%d",&range);
+    
+            if(range < num)
+            {
+                for(num ; num >= range ; num--)
+                {
+                    if( num%2 == 0)
+                    {
+                        printf("%d,", num);
+                    }
+                }
+            }
+            else
+            {
+                    for(num ; num <= range ; num++)
+                    {
+                        if( num%2 == 0)
+                        {
+                            printf("%d,", num);
+                        }
+                    }
+            }   
+        }
+        else if (choice == 'd')
+        {
+            printf("Enter the range to find odd no b/w :- \n");
+            printf("Enter the first num :");
+            scanf("%d",&num);
+            printf("Enter the last num :");
+            scanf("%d",&range);
+    
+            if(range < num)
+            {
+                for(num ; num >= range ; num--)
+                {
+                    if( !(num%2 == 0))
+                    {
+                        printf("%d,", num);
+                    }
+                }
+            }
+            else
+            {
+                    for(num ; num <= range ; num++)
+                {
+                    if( !(num%2 == 0))
+                    {
+                        printf("%d,", num);
+                    }
+                }
+            }
+        }
+        else
+        {
+         printf("Invalid operation");               
+        }
+        
+    }
+    else if (alpha == 'l')
+    {
+           printf("Enter the no to calculate its factorial :-");
+           scanf("%d",&num);
+           temp = num ;
+           for(int i = num ; i >=1 ; i--)
+            {
+                factorial *= i;
+            }
+            
+           printf("Factorial of the %d is :- %d ",temp , factorial); 
+    }
+    else if (alpha == 't')
+    {
+        printf("Enter the no to print its Multiplication table :-");
+        scanf("%d",&num);
+        for(int i = 1 ; i<= 10 ; i++)
+        {
+            printf("%d x %d = %d \n", num , i , num*i );
+        }
+    }
+    else if (alpha == 'y')
+    {
+                
+        printf("Enter a calculator operation (a, s, m, d, o): ");
+        scanf(" %c", &operation);
+
+        
+        printf("Enter two numbers: ");
+        scanf("%d %d", &num1, &num2);
+
+        if (operation == 'a') {
+            result = num1 + num2;
+            printf("Addition: %d\n", result);
+        } else if (operation == 's') {
+            result = num1 - num2;
+            printf("Subtraction: %d\n", result);
+        } else if (operation == 'm') {
+            result = num1 * num2;
+            printf("Multiplication: %d\n", result);
+        } else if (operation == 'd') {
+            result = num1 / num2;
+            printf("Division: %d\n", result);
+        } else if (operation == 'o' ) {
+            result = num1 % num2;
+            printf("Modular: %d\n", result);
+        } else {
+            printf("Invalid calculator operation\n");
+        }
+    }
+    else
+    {
+        printf("Invalid operation");
+    }
+
+
+    return 0;
+}

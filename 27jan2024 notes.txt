@@ -1,0 +1,63 @@
+C : 
+------------------------------------------------------------------
+value assign :
+----------------------------------------------------------------------
+data type :
+->it is used to store the variable.
+->which type of value stored in variable 
+
+types : 
+two type :
+a)primitive data type 
+->int ,float ,char 
+
+=>int :
+->it is used to store integer type | numeric value 
+->it is used to store negative number and positive number and zero 
+
+syntax:
+int variable_name=value;
+eg, 67 , 89,-12
+#include<stdio.h>
+int main(){
+    int a=23;
+    printf("%d",a);
+    return 0;
+}
+
+34 ,89, 12
+34 :int 
+int a=34;
+
+89 :int 
+int b=89;
+
+12 :int 
+int c=12;
+
+#include<stdio.h>
+int main(){
+    int a=34;
+    printf("%d\n",a);
+    int b=89;
+    printf("%d\n",b);
+    int c=12;
+    printf("%d\n",c);
+    return 0;
+}
+-----------------------------------------------------
+
+b)non-primitive data type
+->function ,array 
+
+
+
+variable :
+->it is a container
+->it is used to provide a memory.
+
+------------------------------------------
+format sepecifer : 
+int :%d ,%i,%u 
+float :%f 
+char :%c 
