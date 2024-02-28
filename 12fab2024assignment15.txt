@@ -1,0 +1,241 @@
+Q1.
+
+// No Return No Argument
+
+#include<stdio.h>
+void add();
+int main()
+{
+    add();
+return 0;
+}
+void add ()
+    {
+    int a, b, c;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    c = a + b;
+    printf("Addition of these two Numbers : %d \n \n", c);
+    }
+--------------------------------------------------------------
+
+Q2.
+
+// No Return and Argument
+
+// add(); sub(); multi(); divi(); mod();
+
+#include<stdio.h>
+void add(int a, int b);
+void sub(int a, int b);
+void multi(int a, int b);
+void divi(int a, int b);
+void mod(int a, int b);
+int main()
+{
+    int a, b;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    add(a,b);
+    sub(a,b);
+    multi(a,b);
+    divi(a,b);
+    mod(a,b);
+    return 0;
+}
+void add (int a, int b)
+    {
+    int c;
+    c = a + b;
+    printf("Addition of these two Numbers : %d \n \n", c);
+    }
+
+void sub (int a, int b)
+    {
+    int c;
+    
+    c = a - b;
+    printf("Subtraction of these two Numbers : %d \n \n", c);
+    }
+    
+void multi (int a, int b)
+    {
+    int c;
+    c = a * b;
+    printf("Multiplication of these two Numbers : %d \n \n", c);
+    }
+    
+void divi (int a, int b)
+    {
+    int c;
+    
+    c = a / b;
+    printf("Dividation of these two Numbers : %d \n \n ", c);
+    }
+
+void mod (int a, int b)
+    {
+    int c;
+    
+    c = a % b;
+    printf("Modular of these two Numbers : %d", c);
+    }
+--------------------------------------------------------------------
+
+Q3.
+
+// 
+
+--------------------------------------------------------------------
+
+Q4.
+
+// Return and No Argument
+// add(); sub(); multi(); divi(); mod();
+
+#include<stdio.h>
+int add();
+int sub();
+int multi();
+int divi();
+int mod();
+int main()
+{
+    printf("%d\n", add());
+    printf("%d\n", sub());
+    printf("%d\n", multi());
+    printf("%d\n", divi());
+    printf("%d\n", mod());
+return 0;
+}
+int add ()
+    {
+    int a, b, c;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    c = a + b;
+    return c;
+    }
+
+int sub ()
+    {
+    int a, b, c;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    c = a - b;
+    return c;
+    }
+    
+int multi ()
+    {
+    int a, b, c;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    c = a * b;
+    return c;
+    }
+    
+int divi ()
+    {
+    int a, b, c;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    c = a / b;
+    return c;
+    }
+int mod ()
+{
+    int a, b, c;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    c = a % b;
+    return c;
+
+}
+--------------------------------------------------------------------
+
+Q5. 
+
+--------------------------------------------------------------------
+
+Q6. 
+
+// Return and Argument
+// add(); sub(); multi(); divi(); mod();
+
+#include<stdio.h>
+int add(int a, int b);
+int sub(int a, int b);
+int multi(int a, int b);
+int divi(int a, int b);
+int mod(int a, int b);
+int main()
+{
+    int a, b;
+    printf("Enter First Number :- ");
+    scanf("%d", &a);
+    printf("Enter Second Number :- ");
+    scanf("%d", &b);
+    printf("%d \n  ", add(a,b));
+    printf("%d\n", sub(a,b));
+    printf("%d\n ", multi(a,b));
+    printf("%d\n ", divi(a,b));
+    printf("%d\n", mod(a,b));
+    return 0;
+}
+int add (int a, int b)
+    {
+    int c;
+    c = a + b;
+    return c;
+    }
+
+int sub (int a, int b)
+    {
+    int c;
+    
+    c = a - b;
+    return c;
+    }
+    
+int multi (int a, int b)
+    {
+    int c;
+    c = a * b;
+    return c;
+    }
+    
+int divi (int a, int b)
+    {
+    int c;
+    
+    c = a / b;
+    return c;
+    }
+
+int mod (int a, int b)
+    {
+    int c;
+    
+    c = a % b;
+    return c;
+    }
+-----------------------------------------------------------
+
+Q7. 
+
+-----------------------------------------------------------
